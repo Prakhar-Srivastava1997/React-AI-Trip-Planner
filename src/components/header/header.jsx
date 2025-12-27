@@ -11,7 +11,7 @@ const HomeHeader = () => {
             // Redirect to Auth0 and request returning to /user-profile after login
             loginWithRedirect({
                 authorizationParams: {
-                    redirect_uri: `${window.location.origin}/user-profile`
+                    redirect_uri: window.location.origin + '/user-profile'
                 }
             });
         } else {
