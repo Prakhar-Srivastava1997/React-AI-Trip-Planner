@@ -1,0 +1,15 @@
+:root{
+    --fontFamily : sans-serif;
+    --primaryHeadingSize : 1.3rem;
+    --secondaryHeadingSize : 1rem;
+}
+
+.homeContainer{
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start;
+}

@@ -1,0 +1,106 @@
+:root{
+    --ct-text-weight: bold;
+    --ct-text-size: 2rem;
+    --ct-text-font-family: sans-serif;
+    --ct-para-text-size: 1rem;
+    --ct-text-color: #ee7708ff;
+}
+
+.ctContainer{
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ctHeader{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.ctHeader h2{
+    font-size: var(--ct-text-size);
+    font-weight: var(--ct-text-weight);
+    font-family: var(--ct-text-font-family);
+}
+
+.ctHeader p{
+    font-size: var(--ct-para-text-size);
+    font-family: var(--ct-text-font-family);
+}
+
+.ctForm{
+    width: 65%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.ctDestination{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.ctDestination label{
+    font-size: var(--ct-para-text-size);
+    font-weight: var(--ct-text-weight);
+    font-family: var(--ct-text-font-family);
+}
+
+.budget{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.budget h2{
+    font-size: var(--ct-para-text-size);
+    font-weight: var(--ct-text-weight);
+    font-family: var(--ct-text-font-family);
+}
+
+.budgetCardContainer, .travellerCardContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+}
+
+.travellers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.travellers h2{
+    font-size: var(--ct-para-text-size);
+    font-weight: var(--ct-text-weight);
+    font-family: var(--ct-text-font-family);
+}
+
+.generateTripBtn{
+    margin-top: 1rem;
+}

@@ -1,0 +1,169 @@
+:root{
+    --card-font-family: sans-serif;
+    --card-title-font-weight: 750;
+    --card-body-font-weight: 600;
+    --card-description-font-size: 0.8rem;
+    --card-description-font-color: rgb(149, 141, 141);
+    --card-time-to-visit-font-color: rgb(213, 78, 78);
+}
+
+.iconContainer{
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border: 1px solid rgb(221, 214, 214);
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+
+.iconContainer:hover{
+    box-shadow: 2px 2px 2px 2px rgb(138, 133, 133);
+}
+
+.iconContainerActive{
+    border: 2px solid black;
+}
+
+.cardHeader{
+    font-size: 1.8rem;
+}
+
+.cardBody{
+    font-family: var(--card-font-family);
+}
+
+.cardBody [data-title="title"]{
+    font-weight: var(--card-title-font-weight);
+    padding-bottom: 5px;
+}
+
+.cardBody [data-title="description"]{
+    font-size: 0.9rem;
+}
+
+.imgContainer{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.imgContainer:hover{
+    /* shifting card upwards 10px */
+    transform: translateY(-10px); 
+}
+
+.cardImgHeader{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.cardImgBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    font-family: var(--card-font-family);
+}
+
+.hotelTitle{
+    font-weight: var(--card-title-font-weight);
+}
+.hotelAddress{
+    font-size: 0.9rem;
+}
+.hotelPrice{
+    font-size: 0.9rem;
+    font-weight: var(--card-title-font-weight);
+}
+.hotelRating{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.9rem;
+}
+
+.placeContainer{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(240, 216, 216);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.placeContainer:hover{
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 2px 2px rgb(171, 169, 169);
+}
+
+.placeCardDetails{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    gap: 1rem;
+    padding: 0 5px;
+}
+
+.imgHeader{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.imgHeader img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cardPlaceBody{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.placeDescription{
+    font-family: var(--card-font-family);
+    font-size: var(--card-description-font-size);
+    color: var(--card-description-font-color);
+    font-weight: var(--card-body-font-weight);
+}
+
+.placeVisitTime{
+    font-family: var(--card-font-family);
+    font-size: var(--card-description-font-size);
+    color: var(--card-time-to-visit-font-color);
+    font-weight: var(--card-body-font-weight);
+}
+
+.placeTravelTime{
+    font-family: var(--card-font-family);
+    font-size: var(--card-description-font-size);
+    font-weight: var(--card-body-font-weight);
+}

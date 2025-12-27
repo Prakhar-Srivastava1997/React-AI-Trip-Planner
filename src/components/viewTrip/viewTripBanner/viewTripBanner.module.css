@@ -1,0 +1,61 @@
+:root{
+    --banner-heading-size: 1.5rem;
+    --banner-font-family: sans-serif;
+    --banner-pill-size: 0.8rem;
+    --banner-pill-background: rgb(230, 223, 223);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.imgSec{
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.imgSec img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.tripDetailsContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.header{
+    font-family: var(--banner-font-family);
+    font-size: var(--banner-heading-size);
+}
+
+.tripDetails{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.tripDetails p{
+    font-family: var(--banner-font-family);
+    font-size: var(--banner-pill-size);
+    background-color: var(--banner-pill-background);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+} 

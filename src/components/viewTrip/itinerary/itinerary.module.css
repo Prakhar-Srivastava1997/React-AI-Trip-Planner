@@ -1,0 +1,44 @@
+:root{
+    --itin-font-family: sans-serif;
+    --itin-header-text-size: 1.5rem;
+}
+
+.itinContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.header{
+    width: 80%;
+    font-family: var(--itin-font-family);
+    font-size: var(--itin-header-text-size);
+}
+
+.itinSec{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-family: var(--itin-font-family);
+}
+
+.placeListContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cardContainer{
+    padding: 1rem 0;
+}

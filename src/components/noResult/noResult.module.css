@@ -1,0 +1,30 @@
+:root{
+    --noResult-text-color: #555555;
+    --noResult-font-main-size: 1.2rem;
+    --noResult-font-sub-size: 1rem;
+    --noResult-font-family: sans-serif;
+}
+
+.noTextContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mainText{
+    font-size: var(--noResult-font-main-size);
+    color: var(--noResult-text-color);
+    font-family: var(--noResult-font-family);
+    font-weight: 600;
+}
+
+.subText{
+    font-size: var(--noResult-font-sub-size);
+    color: var(--noResult-text-color);
+    font-family: var(--noResult-font-family);
+    font-weight: 400;
+}

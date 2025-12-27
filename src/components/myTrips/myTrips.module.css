@@ -1,0 +1,35 @@
+:root{
+    --mytrip-font-family: sans-serif;
+    --mytrip-header-text-size: 1.5rem;
+}
+
+.myTripsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;    
+}
+
+.headerSec{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.headerSec h2{
+    font-family: var(--mytrip-font-family);
+    font-size: var(--mytrip-header-text-size);
+}
+
+.tripsContainer{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

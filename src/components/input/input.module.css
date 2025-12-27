@@ -1,0 +1,11 @@
+:root{
+    --inp-text-size: 0.9rem;
+    --inp-text-font-family: sans-serif;
+}
+
+.inputField{
+    width: 100%;
+    padding: 8px;
+    font-size: var(--inp-text-size);
+    font-family: var(--inp-text-font-family);
+}

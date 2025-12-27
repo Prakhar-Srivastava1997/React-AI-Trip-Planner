@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  /*helps to encapsulate padding and border space inside width/height of the element */
+  box-sizing: border-box;
+}
+
+.header{
+    padding: 2rem 2rem;
+}
